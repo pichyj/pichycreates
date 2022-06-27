@@ -1,0 +1,78 @@
+/* .profile-pic {
+  float: left;
+  position: relative;
+  top: 0px;
+  height: 0.30px;
+} */
+
+h1 {
+  color: black;
+  top: 300px;
+  font-size: 20pt;
+  text-align: left;
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-weight: normal;
+  letter-spacing: 3pt;
+}
+
+.site-brand {
+  top: -30px;
+  display: block;
+}
+
+.dropbtn {
+  color: black;
+  padding: 16px;
+  font-size: 11pt;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #857272;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: none;
+  min-width: 160px;
+  overflow: auto;
+  z-index: 1;
+  font-size: 10pt;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: none;}
+
+.show {display: block;}
+
+.icon {
+  justify-content: center;
+  height: 25px;
+  width: 25px;
+  padding: 0.2em;
+
+}
+
+/* .dropbtn {
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.
