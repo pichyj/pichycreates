@@ -1,24 +1,73 @@
-/* .profile-pic {
-  float: left;
-  position: relative;
-  top: 0px;
-  height: 0.30px;
-} */
 
-h1 {
-  color: black;
-  top: 300px;
-  font-size: 20pt;
-  text-align: left;
-  font-family: "Libre Baskerville", Georgia, serif;
-  font-weight: normal;
-  letter-spacing: 3pt;
-}
-
-.site-brand {
+/* .site-brand {
   top: -30px;
   display: block;
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+  color: black
+  user-select: none;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
 }
+.sidebar {
+  position: fixed;
+  width: 255px;
+  left 0%;
+
+}
+.sidebar .text {
+  color: black;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 65px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  height: 100%;
+  width: 100%;
+  list-style: none;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  padding-left: 40px;
+  font-weight: 500;
+  display: block;
+  width: 100%;
+}
+
+nav ul li a:hover {
+  color: red;
+  border-left-color: blue;
+}
+
+nav ul ul{
+  position: static;
+  display: none;
+  /* this makes sub menu not part of regular menu view */
+}
+
+nav ul ul li{
+  line-height: 42px;
+  border-bottom: none;
+}
+
+nav ul ul li a{
+  font-size: 17px;
+  color: black;
+  padding-left: 80px;
+
+}
+
+
+
 
 /* .dropbtn {
   color: black;
@@ -72,7 +121,7 @@ h1 {
 
 }
 
-.dropdown {
+/* .dropdown {
   margin: 10px;
   color: black;
   text-decoration: none;
@@ -82,7 +131,7 @@ h1 {
 nav ul {
   color: black;
   text-decoration: none;
-}
+} */
 
 /* .dropbtn {
   color: black;
