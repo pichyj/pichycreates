@@ -4,6 +4,8 @@
   display: block;
 } */
 
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -66,6 +68,14 @@ nav ul ul li a{
 
 }
 
+nav ul li a span {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%)
+  font-size: 22px;
+}
+
 
 
 
@@ -107,7 +117,7 @@ nav ul ul li a{
 
 .show {display: block;} */
 
-.icon {
+/* .icon {
   justify-content: center;
   height: 25px;
   width: 25px;
@@ -119,7 +129,7 @@ nav ul ul li a{
   text-decoration: none;
   color: black;
 
-}
+} */
 
 /* .dropdown {
   margin: 10px;
